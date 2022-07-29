@@ -43,19 +43,19 @@ Obs: Os testes trazem mais segurança para o desenvolvimento, evitando erros em 
 ## SOLID
 
 1. Single Responsibility Principle
-Cada classe/função deve ter apenas uma única responsabilidade.
-Obs: Prestar atenção ao explicar a funcionalidade, se ela faz algo "e" outra coisa.
+- Cada classe/função deve ter apenas uma única responsabilidade.
+- Obs: Prestar atenção ao explicar a funcionalidade, se ela faz algo "e" outra coisa.
 
 2. Open/Close Principle
-As classes devem ser abertas para extensão e fechadas para modificação.
-Obs: Não deveria modificar a classe de origem, apenas extender-la.
+- As classes devem ser abertas para extensão e fechadas para modificação.
+- Obs: Não deveria modificar a classe de origem, apenas extender-la.
 
 3. Liskov Substituition Principle
-Devemos substituir uma classe pai por uma herança dela e tudo continuar funcionando.
+- Devemos substituir uma classe pai por uma herança dela e tudo continuar funcionando.
 
 4. Interface Segregation Principle
-Segregar as interfaces sempre que possível.
+- Segregar as interfaces sempre que possível.
 
 5. Dependency Inversion Principle
-Ao invés da classe buscar as dependências que ela precisa, o contexto externo mostra quais ela precisa usar.
-Obs: Facilita o processo de testes
+- Ao invés da classe buscar as dependências que ela precisa, o contexto externo mostra quais ela precisa usar.
+- Obs: Facilita o processo de testes
