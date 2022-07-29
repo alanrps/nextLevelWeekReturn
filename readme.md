@@ -1,15 +1,23 @@
 # Next Level Week Return
 
+
 - $ npm i typescript @types/node ts-node-dev -d
 
 - $ npx typescript --init
 
 - $ npx init -> criação da pasta prisma
 
+- $ npx prisma generate -> Generate prisma client
+
 - $ npx prisma migrate dev
 
 - $ npx prisma studio
 
+- $ npx jest --init
+
+install ts-node e swc para trabalhar com typescript
+
+testes trazem segurança para o desenvolvimento, evitar erros em produção e medo na hora de subir o código
 
 ## SOLID
 
@@ -34,4 +42,4 @@
 - Apenas recebe sem saber como funciona muito a fundo
 - Ajuda nos testes
 
-55 min
+1.47.24
